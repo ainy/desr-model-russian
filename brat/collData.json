@@ -1,0 +1,54 @@
+{
+    "entity_types": [
+        {
+            "type": "UNK",
+            "labels": [ "..." ],
+            "bgColor": "#7fa2ff",
+            "borderColor": "darken"
+        }
+    ],
+    "entity_attribute_types": [
+    ],
+    "relation_types": [
+        {"color": "blue", "labels": ["foreign"], "type": "foreign", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["cc"], "type": "cc", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["list"], "type": "list", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["cc:p","cc:preconj"], "type": "cc:preconj", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["ccomp"], "type": "ccomp", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["remnant"], "type": "remnant", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["nsubjpass"], "type": "nsubjpass", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["conj"], "type": "conj", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["dobj"], "type": "dobj", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["vocative"], "type": "vocative", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["neg"], "type": "neg", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["discourse"], "type": "discourse", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["mark"], "type": "mark", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["auxpass"], "type": "auxpass", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["mwe"], "type": "mwe", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["advcl"], "type": "advcl", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["aux"], "type": "aux", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["prtx","parataxis"], "type": "parataxis", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["xcomp"], "type": "xcomp", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["nsubj"], "type": "nsubj", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["nummod"], "type": "nummod", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["advmod"], "type": "advmod", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["punct"], "type": "punct", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["goeswith"], "type": "goeswith", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["case"], "type": "case", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["cop"], "type": "cop", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["name"], "type": "name", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["pconj","conj:preconj"], "type": "conj:preconj", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["dep"], "type": "dep", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["appos"], "type": "appos", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["det"], "type": "det", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["nmod"], "type": "nmod", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["amod"], "type": "amod", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["relcl","acl:relcl"], "type": "acl:relcl", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["iobj"], "type": "iobj", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["expl"], "type": "expl", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["root"], "type": "root", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]},
+        {"color": "blue", "labels": ["acl"], "type": "acl", "args": [{"role": "head", "targets": ["UNK"]}, {"role": "child", "targets": ["UNK"]}]}
+    ],
+    "event_types": [
+    ]
+} 
